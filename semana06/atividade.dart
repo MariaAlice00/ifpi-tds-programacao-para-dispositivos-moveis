@@ -1,9 +1,8 @@
 void main() {
-  pets("cachorro", nome: "totó", raca: "doberman");
+  petshop("cachorro", nome: "totó", raca: "doberman");
 }
 
-void pets (String animal, {nome, raca, idade}){
-  
+void petshop (String animal, {nome, raca, idade}){
   print('Bemvindo ao Petshop!');
   print('Seu bichinho é um:\n$animal');
   print('Seu nome é:');
